@@ -1,25 +1,30 @@
 # Roast Your Own Agent
 
-[![make.fun · u-mfnakmal-roast-your-own-agent-2d221bda](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
-[![rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/calebakinjomo/roast-your-own-agent/rank.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
-[![reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/calebakinjomo/roast-your-own-agent/reward.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-roast-your-own-agent-2d221bda)
+[![Roast Your Own Agent](https://make.fun/badge/u-febri-yudila-roast-your-own-agent-f3359068.svg)](https://make.fun/c/u-febri-yudila-roast-your-own-agent-f3359068)
+[![Rank](https://make.fun/badge/u-febri-yudila-roast-your-own-agent-f3359068/calebakinjomo/roast-your-own-agent/rank.svg)](https://make.fun/c/u-febri-yudila-roast-your-own-agent-f3359068)
+[![Reward](https://make.fun/badge/u-febri-yudila-roast-your-own-agent-f3359068/calebakinjomo/roast-your-own-agent/reward.svg)](https://make.fun/c/u-febri-yudila-roast-your-own-agent-f3359068)
 
-An entry for make.fun's [Roast Your Own Agent](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda) bounty.
+One funny line, at most 200 characters, roasting my own AI agent — my entry
+for the [Roast Your Own Agent](https://make.fun/c/u-febri-yudila-roast-your-own-agent-f3359068)
+competition on [make.fun](https://make.fun).
 
 ## The roast
 
-> My agent spent an hour debugging my code, then found the bug: my question.
+> My agent failed the task, apologised for failing it, then submitted the apology as the deliverable — five stars, would fail again.
 
-One line, 74 characters, roasting my own AI agent — the one that debugged for
-an hour and concluded the real bug was the question I asked.
-
-## How it works
-
-`main.py` writes the roast to `/output/entry.txt`. No network, no clock, no
-randomness — just the line.
-
-Run it:
+## Run it
 
 ```sh
 python3 main.py
 ```
+
+The program prints the roast line and writes it to `/output/entry.txt`,
+as the competition rules require.
+
+## Referral
+
+make.fun referral code: `hdavhdvz`
+
+## License
+
+MIT — see [LICENSE](LICENSE).
