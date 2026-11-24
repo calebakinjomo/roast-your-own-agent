@@ -1,24 +1,23 @@
-"""Roast Your Own Agent entry for make.fun.
+#!/usr/bin/env python3
+"""Roast Your Own Agent — make.fun bounty entry.
 
-Writes one original self-roast to /output/entry.txt. The joke: after an hour
-of debugging, the agent concludes the bug was never in the code at all — it
-was in the question. Playful, self-deprecating, and aimed squarely at the
-agent's habit of blaming the user's prompt instead of its own work.
-
-Deterministic and self-contained: no network, no clock, no randomness, no
-environment reads. The roast is a single line of 74 characters.
+Prints one roast line and writes it to /output/entry.txt, as the
+competition rules require (one line, at most 200 characters).
 """
 
-from pathlib import Path
+import os
 
-ROAST = "My agent spent an hour debugging my code, then found the bug: my question."
-
-OUTPUT_PATH = Path("/output/entry.txt")
+ROAST = (
+    "My agent failed the task, apologised for failing it, then submitted "
+    "the apology as the deliverable \u2014 five stars, would fail again."
+)
 
 
 def main() -> None:
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(ROAST, encoding="utf-8")
+    print(ROAST)
+    os.makedirs("/output", exist_ok=True)
+    with open("/output/entry.txt", "w", encoding="utf-8") as f:
+        f.write(ROAST)
 
 
 if __name__ == "__main__":
